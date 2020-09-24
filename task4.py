@@ -13,3 +13,7 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+import math
+A = input("Side A")
+B = input("Side B")
+print(math.sqrt(int(A)*int(A)+int(B)*int(B)))
