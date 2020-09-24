@@ -14,8 +14,9 @@
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
 import math
-V = input()
+V = input("What is the volume? ")
 V = float(V)
 V = 3 * V
-
-print (V)
+R = V / 4 / math.pi
+R = R / 3
+print (R)
